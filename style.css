@@ -1,0 +1,145 @@
+body{
+    margin-top:30px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+}
+.main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#tables-sec{
+    width: 30%;
+    float:left;
+}
+#menu-sec{
+    width:69.5%;
+    float: left;
+    border-left:2px solid black;
+    margin-bottom: 20px;
+}
+.table-head{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+}
+.menu-head{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+}
+#search-menu{
+    width:60%;
+    height:35px;
+    padding-left: 10px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 5px;
+}
+#search-table{
+    width:60%;
+    height:35px;
+    padding-left: 10px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 5px;
+}
+span{
+    margin-left: 10px;
+}
+.table-item{
+    box-shadow: 10px;
+    background-color: rgb(250, 253, 253);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top:5px;
+    box-shadow: 2px 2px 3px;
+    height:90px;
+}
+#menu-sec > div{
+    margin-bottom: 20px;
+}
+.menu-item{
+    box-shadow: 10px;
+    background-color: rgb(250, 253, 253);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top:5px;
+    box-shadow: 2px 2px 3px;
+    height:80px;
+}
+h2{
+    padding-top: 5px;
+    margin-top:0;
+    margin-bottom: 6px;
+}
+.popup-container{
+    float: none;
+}
+.table-name{
+    width:200px;
+    height:40px;
+    padding-top: 15px;
+    color: white;
+}
+.table-list{
+    background-color:#f7f9f9;
+    color: #000000;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 600px;
+    height: 400px;
+    left: 50%;
+    top:40%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-y:scroll;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+}
+.btn{
+    float:right;
+     margin-top: 15px; 
+     background-color: rgb(149, 149, 223);
+     border: 1px solid rgb(149, 149, 223);
+     margin-right: 5px;
+     color: white;
+}
+
+.table-style{
+    height: 50px;
+    background-color: rgb(70, 70, 173);
+}
+#close-session{
+    margin-top: 40px;
+    background-color: rgb(54, 161, 84);
+    border: 1px solid rgb(149, 149, 223);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+}
+.trash{
+    background-color: rgb(237, 243, 237);
+    color: red;
+}
+.trash:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(253, 3, 3)
+}
+td,th{
+    padding:8px
+}
+.main#blur.active{
+    filter:blur(2px);
+    pointer-events: none;
+    user-select: none;
+}
+#pop.active{
+    top:50%;
+    visibility: visible;
+}
